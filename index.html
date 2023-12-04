@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>blog jisoo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+.inputUser:focus ~ .labelInput,
+        .inputUser:valid ~ .labelInput{
+            top: -20px;
+            font-size: 12px;
+            color: black;}
+</style>
+</head>
+<body class="w3-light-grey" style="font-family:Arial, Helvetica, sans-serif;">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="https://www.facebook.com/search/top?q=jisoo" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.instagram.com/sooyaaa__/" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="https://www.snapchat.com/" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="https://twitter.com/JisooBrasil" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="https://pt.wikipedia.org/wiki/Jisoo" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+ 
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>jisoo</b></h1>
+    <h6>Bem vindo ao blog da<span class="w3-tag">Kim Ji-soo</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="imagens" src="imagens/j-1.jpg" alt="Blog" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Jisoo</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>BLOG </b></h1>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+   
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+            <h3>lll</h3>
+          <h5>SOBRE MIM, <span class="w3-opacity">31 de Março de 2023</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="imagens/j-2.jpg" alt="jisoo" style="width:100%" class="w3-padding-16">
+        <p>Kim Ji-soo, referenciada como Jisoo, é uma cantora e atriz sul-coreana. É integrante do grupo BLACKPINK, formado
+             em 2016 pela YG Entertainment. Em março de 2023, fez sua estreia como artista solo com
+              "FLOWER" e o single álbum "ME".</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          </button></p>
+          <br><br>
+          
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+         
+             
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>BLACKPINK</h3>
+         
+        </div>
+
+        <div class="w3-justify">
+          <img src="imagens/jm-1.jpg" alt="Men in Hats" style="width:100%" class="w3-padding-16">
+          <p>O conceito do Blackpink é representado pelo nome do grupo; o lado "preto" representa sua imagem mais madura, "girl crush", enquanto o lado "rosa" representa sua imagem mais fofa e colorida. Em uma entrevista com Jimmy Kimmel, Rosé explicou que o grupo sente que "há duas cores que mais nos representaram porque somos muito femininas, mas ao mesmo tempo somos muito selvagens também", nomeando sua música "Pretty Savage" como a canção que as descrevia melhor porque "isso meio que combina com 'black pink". As letras do grupo geralmente abordam temas de independência, empoderamento feminino, separações e relacionamentos tóxicos, bem como romances de verão.
+          </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo2')"><b>Replies  </b> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+         
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="imagens/jm-2.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
+                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagens/jm-3.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
+                <p>Love hats!!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>DORAMAS</h3>
+          <h5>Atuação, <span class="w3-opacity">18 de dezembro de 2021</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="imagens/jf-2.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>A seguir</strong><p>Jisoo fez barulho como atriz em 2021, na série Snowdrop da emissora JTBC. No drama, Jisoo interpreta uma estudante que ajuda um homem que está fugindo do governo no ano de 1987, um ano da história coreana com muitas lutas políticas contra a ditadura que ameaçava o país. Mas bem antes de Snowdrop, Jisoo já fez algumas pontinhas como atriz em The Producers (2015), da KBS2, e em Arthdal Chronicles (2019), da TvN. Na primeira, foi apenas uma aparição bem rápida, interpretando ela mesma; na segunda, Jisoo teve uma aparição um pouco maior, e sua personagem se chamava Sae Na-rae.
+        </p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo3')"><b>clique aqui para mais  </b></button></p>
+          <p class="w3-clear"></p>
+         
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagens/jf-1.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>dor <span class="w3-opacity w3-medium">April 10, 2015, 7:22 PM</span></h4>
+                <p>That was a great runway show! Thanks for everything.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagens/jf-3.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>John <span class="w3-opacity w3-medium">April 8, 2015, 10:32 PM</span></h4>
+                <p>Keep up GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="imagens/jf-4.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4>Anja <span class="w3-opacity w3-medium">April 7, 2015, 9:12 PM</span></h4>
+                <p>Cant wait for the runway to start!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <img src="imagens/j-4.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4>CURIOSIDADES SOBRE JISOO</h4>
+          <p>Jisoo é a integrante mais velha do BLACKPINK</p>
+          <p>Super fã do boygroup TVXQ</p>
+          <p>Na época da escola, Jisoo já era muito popular por sua beleza, e por sempre usar um gorrinho vermelho</p>
+          <p>Ela já foi MC do Inkigayo de 5 de fevereiro de 2017 à 3 de fevereiro de 2018</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tag</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Moda</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Coreia do Sul</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Blackpink</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Flower</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Dior</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Me</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Notícias</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Doramas</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-container w3-padding w3-black">
+          <h4>Deixe seu Comentario aqui </h4>
+      </div>
+      <div class=" w3-container w3-white">
+        <form id="formulario" class="rounded-2 bg-white p-5">
+       
+        <div class="w3-row-padding w3-white">
+          <div class="w3-col ">
+
+            <div class="mb-3">
+              <label for="inputname" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="inputname" placeholder="Digite seu Nome..." required>
+            </div>
+
+            <div class="mb-3">
+              <label for="inputText" class="form-label">Comente aqui</label>
+              <textarea class="form-control" id="inputText" placeholder="comente algo..." required></textarea>
+            </div>
+
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn btn-dark px-4">Comentar</button>
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+
+      <hr>
+      <div class="w3-container w3-padding w3-black">
+          <h4>Comentários</h4>
+      </div>
+      <div class="w3-container w3-white">
+          <div class="rounded-2 bg-white p-3 mt-5" id="commentPost">
+          </div>
+      </div>
+      <hr>
+     
+<div class="w3-col s6">
+           
+           
+         </div>
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">Inscreva-se</h2>
+      <p>Junte-se à minha lista de e-mails para receber atualizações sobre as últimas postagens do blog e outras coisas.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="digite seu e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Finalize sua inscrição</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+ 
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+<script src="script.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
